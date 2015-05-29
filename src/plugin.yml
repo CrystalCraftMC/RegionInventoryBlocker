@@ -1,0 +1,17 @@
+name: RegionInventoryBlocker
+main: me.clip.regioninventoryblocker.RegionInventoryBlocker
+version: 1.0
+author: [extended_clip]
+description: Stop players from opening inventories in certain regions
+softdepend: [WorldGuard, WorldEdit]
+permissions:
+    regioninventoryblocker.bypass:
+        description: allowed to open inventories anywhere
+        default: op
+    regioninventoryblocker.admin:
+        description: allowed to use commands
+        default: op
+commands:
+   regioninventoryblocker:
+     description: RegionInventoryBlocker admin command
+     aliases: [rib]
